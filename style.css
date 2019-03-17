@@ -1,0 +1,115 @@
+body {
+  margin: 100px;
+  background-color: #72A396; }
+
+#counter {
+  margin: 40px; }
+
+.dice, #dice-1, #dice-2, #dice-3, #dice-4, #dice-5, #dice-6 {
+  border-style: solid;
+  border-width: 1px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  background-color: #DBEAAC;
+  margin: 20px; }
+
+.led, .led1, .led2, .led4, .led3, .led5, .led6, .led7 {
+  border-radius: 50%;
+  background: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: none;
+  background-color: #738A5F; }
+
+.led1 {
+  top: 5px;
+  left: 5px; }
+
+.led2 {
+  top: 5px;
+  left: 45px; }
+
+.led4 {
+  top: 25px;
+  left: 25px; }
+
+.led3 {
+  left: 5px;
+  top: 25px; }
+
+.led5 {
+  left: 45px;
+  top: 25px; }
+
+.led6 {
+  left: 5px;
+  top: 45px; }
+
+.led7 {
+  left: 45px;
+  top: 45px; }
+
+#dice-1 .led4 {
+  display: block; }
+
+#dice-2 .led2 {
+  display: block; }
+
+#dice-2 .led6 {
+  display: block; }
+
+#dice-3 .led2 {
+  display: block; }
+
+#dice-3 .led4 {
+  display: block; }
+
+#dice-3 .led6 {
+  display: block; }
+
+#dice-4 .led1 {
+  display: block; }
+
+#dice-4 .led2 {
+  display: block; }
+
+#dice-4 .led6 {
+  display: block; }
+
+#dice-4 .led7 {
+  display: block; }
+
+#dice-5 .led1 {
+  display: block; }
+
+#dice-5 .led2 {
+  display: block; }
+
+#dice-5 .led4 {
+  display: block; }
+
+#dice-5 .led6 {
+  display: block; }
+
+#dice-5 .led7 {
+  display: block; }
+
+#dice-6 .led1 {
+  display: block; }
+
+#dice-6 .led3 {
+  display: block; }
+
+#dice-6 .led6 {
+  display: block; }
+
+#dice-6 .led2 {
+  display: block; }
+
+#dice-6 .led5 {
+  display: block; }
+
+#dice-6 .led7 {
+  display: block; }

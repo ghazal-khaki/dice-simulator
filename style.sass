@@ -1,0 +1,115 @@
+body
+  margin: 100px
+  background-color: #72A396
+#counter
+  margin: 40px
+.dice
+  border-style: solid
+  border-width: 1px
+  width: 70px
+  height: 70px
+  position: relative
+  background-color: #DBEAAC
+  margin: 20px
+.led
+  border-radius: 50%
+  background: black
+  width: 20px
+  height: 20px
+  position: absolute
+  display: none
+  background-color: #738A5F
+.led1
+  @extend .led
+  top: 5px
+  left: 5px
+
+.led2
+  @extend .led
+  top: 5px
+  left: 45px
+
+.led4
+  @extend .led
+  top: 25px
+  left: 25px
+
+.led3
+  @extend .led
+  left: 5px
+  top: 25px
+
+.led5
+  @extend .led
+  left: 45px
+  top: 25px
+
+.led6
+  @extend .led
+  left: 5px
+  top: 45px
+
+.led7
+  @extend .led
+  left: 45px
+  top: 45px
+
+#dice-1
+  @extend .dice
+  .led4
+    display: block
+
+#dice-2
+  @extend .dice
+  .led2
+    display: block
+  .led6
+    display: block
+
+#dice-3
+  @extend .dice
+  .led2
+    display: block
+  .led4
+    display: block
+  .led6
+    display: block
+
+#dice-4
+  @extend .dice
+  .led1
+    display: block
+  .led2
+    display: block
+  .led6
+    display: block
+  .led7
+    display: block
+
+#dice-5
+  @extend .dice
+  .led1
+    display: block
+  .led2
+    display: block
+  .led4
+    display: block
+  .led6
+    display: block
+  .led7
+    display: block
+
+#dice-6
+  @extend .dice
+  .led1
+    display: block
+  .led3
+    display: block
+  .led6
+    display: block
+  .led2
+    display: block
+  .led5
+    display: block
+  .led7
+    display: block
