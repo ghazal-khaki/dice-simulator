@@ -18,7 +18,8 @@ body {
   height: 70px;
   position: relative;
   background-color: #DBEAAC;
-  margin: 20px; }
+  margin: 20px;
+  display: inline-block; }
 
 .led, .led1, .led2, .led4, .led3, .led5, .led6, .led7 {
   border-radius: 50%;
