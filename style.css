@@ -1,15 +1,23 @@
 body {
+  text-align: center;
   margin: 100px;
   background-color: #72A396; }
 
 #counter {
-  margin: 20px; }
+  padding: 15px 32px;
+  margin: 20px;
+  font-size: 20px; }
 
 #header {
   margin: 20px;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px; }
+
+.button {
+  padding: 15px 32px;
+  background-color: #059696;
+  font-size: 20px; }
 
 .dice, #dice-1, #dice-2, #dice-3, #dice-4, #dice-5, #dice-6 {
   border-style: solid;
@@ -19,7 +27,8 @@ body {
   position: relative;
   background-color: #DBEAAC;
   margin: 20px;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 10px; }
 
 .led, .led1, .led2, .led4, .led3, .led5, .led6, .led7 {
   border-radius: 50%;
